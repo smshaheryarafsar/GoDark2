@@ -343,7 +343,7 @@ export default function Values() {
           display: flex;
           align-items: flex-start;
           gap: 20px;
-          width: 100% !important;
+          width: 100%;
           flex-wrap: wrap;
           justify-content: space-between;
         }
