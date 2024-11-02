@@ -17,7 +17,7 @@ const BrandName: React.FC = () => {
           background-blend-mode: normal;
           align-self: start;
           /* background: -webkit-linear-gradient(#aeaeae, #000); */
-          background: linear-gradient(180deg, #5c5c5c 32%, #000 98%);
+          background: linear-gradient(180deg, #5c5c5c 88%, #000 98%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
           font: 500 120px/1 Clash Display, -apple-system, Roboto, Helvetica,

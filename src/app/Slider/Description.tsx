@@ -47,8 +47,9 @@ const Description: React.FC = () => {
         @media (max-width: 991px) {
           .main-title {
             max-width: 100%;
-            font-size: 40px;
+            font-size: 36px;
             line-height: 54px;
+            overflow-wrap: break-word;
           }
         }
 

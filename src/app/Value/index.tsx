@@ -356,6 +356,17 @@ export default function Values() {
             width: 100% !important;
           }
         }
+
+        @media only screen and (min-width: 968px) and (max-width: 1100px) {
+          .div-3 {
+            width: 60% !important;
+            max-width: 60% !important;
+          }
+          .div-7 {
+            width: 90% !important;
+            max-width: 90% !important;
+          }
+        }
         .div-9 {
           align-self: start;
           width: 1px;
