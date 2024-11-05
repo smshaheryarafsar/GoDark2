@@ -52,7 +52,7 @@ export default css`
 
   .mission-vision-column {
     width: 36%;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     display: flex;
     flex-grow: 1;
     gap: 14px;

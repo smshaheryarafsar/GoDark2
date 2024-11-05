@@ -18,7 +18,12 @@ const CTAButton: React.FC = () => {
             <span className="cta-text">Discover Our Solutions</span>
           </button>
         </div> */}
-        <div id="Wrap">
+        <div
+          id="Wrap"
+          onClick={() => {
+            window.location.href = "#solutions";
+          }}
+        >
           <div className="Button-txt">Discover Our Solutions</div>
           <img
             className="FollowBox"

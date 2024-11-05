@@ -299,7 +299,7 @@ export default function Values() {
           background-color: #111;
           align-self: end;
           display: flex;
-          margin-top: 51px;
+          margin-top: 25%;
           min-height: 300px;
           flex-direction: column;
           align-items: start;
