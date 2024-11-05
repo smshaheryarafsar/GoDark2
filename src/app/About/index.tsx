@@ -19,7 +19,7 @@ const AboutUs: React.FC<AboutUsProps> = ({ companyName }) => {
       // console.log("CurrentTracking ===");
       // console.log(window.scrollY);
       setcurrentPosition(window.scrollY);
-      setTopPosition(rect.top + window.scrollY); // Get the absolute top position
+      setTopPosition(rect.top + window.scrollY + 40); // Get the absolute top position
     }
     if (stopTracking.current) {
       const rect = stopTracking.current.getBoundingClientRect();
